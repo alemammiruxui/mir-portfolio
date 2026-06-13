@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
   <style>
     /* ============ RESET & TOKENS ============ */
@@ -35,7 +35,7 @@
       --accent-hover: #0077ed;
       --highlight: #f56300;
 
-      --font-display: 'Instrument Serif', 'Times New Roman', serif;
+      --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
       --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
 
       --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
@@ -552,7 +552,7 @@
 
     .hero-title {
       font-family: var(--font-display);
-      font-weight: 400;
+      font-weight: 600;
       font-size: clamp(56px, 11vw, 156px);
       line-height: .96;
       letter-spacing: -0.035em;
@@ -831,7 +831,7 @@
 
     .section-title {
       font-family: var(--font-display);
-      font-weight: 400;
+      font-weight: 600;
       font-size: clamp(40px, 6.2vw, 80px);
       line-height: 1.02;
       letter-spacing: -0.03em;
@@ -991,6 +991,7 @@
 
     .about-heading {
       font-family: var(--font-display);
+      font-weight: 600;
       font-size: clamp(32px, 4.5vw, 56px);
       line-height: 1.08;
       letter-spacing: -0.025em;
@@ -1025,6 +1026,7 @@
 
     .stat-num {
       font-family: var(--font-display);
+      font-weight: 700;
       font-size: 48px;
       line-height: 1;
       letter-spacing: -0.02em;
@@ -1133,6 +1135,7 @@
 
     .project-name {
       font-family: var(--font-display);
+      font-weight: 600;
       font-size: 28px;
       letter-spacing: -0.015em;
       margin-bottom: 6px;
@@ -1508,6 +1511,7 @@
         grid-template-columns: 1fr;
         gap: 48px;
       }
+
       .xp-content-left {
         position: relative;
         top: 0;
@@ -1544,6 +1548,7 @@
 
     .xp-year {
       font-family: var(--font-display);
+      font-weight: 600;
       font-size: 22px;
       color: var(--ink-soft);
       font-variant-numeric: tabular-nums;
@@ -1607,6 +1612,7 @@
 
     .skill-num {
       font-family: var(--font-display);
+      font-weight: 600;
       font-size: 22px;
       color: var(--ink-soft);
       font-style: italic;
@@ -1652,6 +1658,7 @@
 
     .cta-title {
       font-family: var(--font-display);
+      font-weight: 600;
       font-size: clamp(44px, 6.5vw, 88px);
       line-height: 1.02;
       letter-spacing: -0.03em;
@@ -1721,6 +1728,7 @@
 
     .footer-main {
       font-family: var(--font-display);
+      font-weight: 600;
       font-size: clamp(36px, 5vw, 64px);
       line-height: 1.02;
       letter-spacing: -0.025em;
@@ -1858,10 +1866,11 @@
 
     .resume-name {
       font-family: var(--font-display);
-      font-size: 40px;
-      letter-spacing: -0.02em;
-      line-height: 1;
-      margin-bottom: 8px;
+      font-weight: 700;
+      font-size: 36px;
+      letter-spacing: -0.025em;
+      line-height: 1.1;
+      margin-bottom: 6px;
     }
 
     .resume-title {
@@ -1892,11 +1901,14 @@
 
     .resume-h2 {
       font-family: var(--font-display);
-      font-size: 22px;
-      letter-spacing: -0.01em;
+      font-weight: 700;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
       margin-bottom: 16px;
       padding-bottom: 8px;
       border-bottom: 1px solid var(--line-soft);
+      color: var(--ink);
     }
 
     .resume-item {
@@ -2626,10 +2638,11 @@
           <div class="resume-photo"><img src="images/profile.jpg" alt=""></div>
           <div>
             <div class="resume-name">Md. Al Emam Mir</div>
-            <div class="resume-title">Product Designer · 5+ years</div>
+            <div class="resume-title">Product Designer (UX/UI) · 5+ years · Dhaka, Bangladesh</div>
             <div class="resume-contact">
               <a href="mailto:alemammir.uxui@gmail.com">alemammir.uxui@gmail.com</a>
               <span>+880 1971 137 706</span>
+              <a href="https://miruxui-portfolio.vercel.app" target="_blank">Portfolio</a>
               <a href="https://www.linkedin.com/in/al-emam-mir-b24094120/" target="_blank">LinkedIn</a>
               <a href="https://dribbble.com/alemammirip" target="_blank">Dribbble</a>
             </div>
@@ -2637,11 +2650,12 @@
         </div>
 
         <div class="resume-section">
-          <div class="resume-h2">Objective</div>
+          <div class="resume-h2">Summary</div>
           <p class="resume-desc">
-            Product Designer with 5+ years of experience building 0→1 products and scalable, high-impact systems. Work
-            blends UX research, behavioral psychology, and product strategy to create experiences that balance user
-            needs with business objectives.
+            Product Designer with 5+ years of experience designing 0→1 products and scalable UI systems for SaaS/admin
+            dashboard experiences and marketplace templates. Blend UX research, behavioral psychology, interaction
+            design, and product strategy to deliver usable, consistent, and developer-ready solutions. Experienced
+            leading design QA, maintaining design systems, and mentoring junior designers.
           </p>
         </div>
 
@@ -2651,28 +2665,39 @@
           <div class="resume-item">
             <div class="resume-item-head">
               <div class="resume-role">Assistant Lead Designer</div>
-              <div class="resume-date">2025-01 — Current</div>
+              <div class="resume-date">Jan 2025 – Present</div>
             </div>
             <div class="resume-co">Technext Limited · Dhaka, Bangladesh</div>
             <div class="resume-desc">
-              Deliver high-quality product design, guide junior designers, and collaborate with developers through
-              design QA to ensure final product quality.
+              <ul>
+                <li>Lead end-to-end product design work across dashboard/template products, from discovery to
+                  high-fidelity UI and handoff.</li>
+                <li>Guide and review work of junior designers; provide feedback on UX, visual consistency, and
+                  design-system alignment.</li>
+                <li>Partner with developers through design QA to ensure spec adherence and pixel-perfect implementation.
+                </li>
+                <li>Own and evolve shared UI components in Figma to improve scalability and consistency across products.
+                </li>
+              </ul>
             </div>
           </div>
 
           <div class="resume-item">
             <div class="resume-item-head">
-              <div class="resume-role">UI/UX Designer · Level II</div>
-              <div class="resume-date">2024-01 — 2024-12</div>
+              <div class="resume-role">UI/UX Designer (Level II)</div>
+              <div class="resume-date">Jan 2024 – Dec 2024</div>
             </div>
-            <div class="resume-co">Technext Limited</div>
+            <div class="resume-co">Technext Limited · Dhaka, Bangladesh</div>
             <div class="resume-desc">
               <ul>
-                <li>Designed high-quality UI/UX for the Bootstrap Marketplace with a focus on usability and visual
-                  consistency.</li>
-                <li>Contributed to the design of #1 selling templates: Phoenix and Falcon.</li>
-                <li>Built scalable UI components and maintained the design system in Figma.</li>
-                <li>Conducted design QA and review before product submission.</li>
+                <li>Designed UI/UX for Bootstrap Marketplace products with a focus on usability, visual consistency,
+                  accessibility, and responsive behaviors.</li>
+                <li>Contributed to the #1 selling templates Phoenix and Falcon by creating new screens, refining
+                  layouts, and aligning components to the design system.</li>
+                <li>Built and maintained scalable UI components and documentation in Figma to speed up design and reduce
+                  inconsistencies.</li>
+                <li>Conducted pre-submission design QA and cross-functional reviews to reduce UI defects and rework.
+                </li>
               </ul>
             </div>
           </div>
@@ -2680,24 +2705,34 @@
           <div class="resume-item">
             <div class="resume-item-head">
               <div class="resume-role">UI/UX Designer</div>
-              <div class="resume-date">2022-02 — 2023-12</div>
+              <div class="resume-date">Feb 2022 – Dec 2023</div>
             </div>
-            <div class="resume-co">Technext Limited</div>
+            <div class="resume-co">Technext Limited · Dhaka, Bangladesh</div>
             <div class="resume-desc">
-              Designed high-quality products for the Bootstrap Marketplace. Contributed to the top-selling templates
-              Phoenix and Falcon, maintained design system scalability, and performed QA before release.
+              <ul>
+                <li>Designed and iterated dashboard experiences for marketplace templates; delivered production-ready
+                  files for developer handoff.</li>
+                <li>Contributed to Phoenix and Falcon template releases by improving component scalability, layout
+                  patterns, and visual hierarchy.</li>
+                <li>Performed design quality reviews prior to release to ensure consistency across pages, states, and
+                  responsive breakpoints.</li>
+              </ul>
             </div>
           </div>
 
           <div class="resume-item">
             <div class="resume-item-head">
               <div class="resume-role">Creative Designer</div>
-              <div class="resume-date">2020-04 — 2022-01</div>
+              <div class="resume-date">Apr 2020 – Jan 2022</div>
             </div>
             <div class="resume-co">IPVision Canada Inc · Dhaka, Bangladesh</div>
             <div class="resume-desc">
-              Designed and maintained all creative assets: UI/UX research, user interface development, social media
-              creative, promotional advertising, and corporate brand identity.
+              <ul>
+                <li>Produced multi-channel creative assets including UI/UX research inputs, interface design, social
+                  media creatives, promotional ads, and brand identity materials.</li>
+                <li>Supported product and marketing teams with consistent visual systems and on-brand execution across
+                  digital touchpoints.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -2708,13 +2743,15 @@
           <div class="resume-item">
             <div class="resume-item-head">
               <div class="resume-role">Phoenix Admin Dashboard</div>
-              <div class="resume-date">2023-03 — 2025-07</div>
+              <div class="resume-date">Mar 2023 – Jul 2025</div>
             </div>
             <div class="resume-co">UX/UI Designer · Technext Limited</div>
             <div class="resume-desc">
-              Contributed to Phoenix — one of the top-selling Bootstrap admin dashboard templates. Designed modern
-              interfaces in Figma, maintained the design system for scalability, and collaborated with developers for
-              pixel-perfect delivery.
+              <ul>
+                <li>Contributed to Phoenix, a top-selling Bootstrap admin dashboard template.</li>
+                <li>Designed modern interfaces in Figma, maintained a scalable design system, and partnered with
+                  developers to ensure accurate implementation.</li>
+              </ul>
             </div>
             <a href="https://prium.github.io/phoenix/v1.24.0/" class="resume-link"
               target="_blank">prium.github.io/phoenix ↗</a>
@@ -2723,12 +2760,16 @@
           <div class="resume-item">
             <div class="resume-item-head">
               <div class="resume-role">Falcon Admin Dashboard</div>
-              <div class="resume-date">2022-03 — 2025-08</div>
+              <div class="resume-date">Mar 2022 – Aug 2025</div>
             </div>
             <div class="resume-co">UX/UI Designer · Technext Limited</div>
             <div class="resume-desc">
-              Designed scalable dashboard layouts for Falcon, a popular Bootstrap template used worldwide. Maintained
-              design system components and conducted design quality reviews prior to release.
+              <ul>
+                <li>Designed scalable dashboard layouts and component-based UI patterns for Falcon, a widely used
+                  Bootstrap template.</li>
+                <li>Maintained design-system components and conducted release readiness reviews to ensure consistency
+                  and quality.</li>
+              </ul>
             </div>
             <a href="https://prium.github.io/falcon/v3.26.0/index.html" class="resume-link"
               target="_blank">prium.github.io/falcon ↗</a>
@@ -2737,28 +2778,33 @@
           <div class="resume-item">
             <div class="resume-item-head">
               <div class="resume-role">Aurora Admin Dashboard</div>
-              <div class="resume-date">2024-02 — Current</div>
+              <div class="resume-date">Feb 2024 – Present</div>
             </div>
             <div class="resume-co">Assistant Lead Designer · Technext Limited</div>
             <div class="resume-desc">
-              Led UI/UX strategy and design direction for Aurora. Created modern, scalable dashboard interfaces in Figma
-              and collaborated closely with developers for consistent product delivery.
+              <ul>
+                <li>Led UI/UX direction for Aurora including dashboard patterns, component usage, and visual standards.
+                </li>
+                <li>Collaborated closely with developers to maintain consistency across features and releases.</li>
+              </ul>
             </div>
-            <a href="https://aurora.themewagon.com/dashboard/ecommerce" class="resume-link"
-              target="_blank">aurora.themewagon.com ↗</a>
+            <a href="https://aurora.themewagon.com" class="resume-link" target="_blank">aurora.themewagon.com ↗</a>
           </div>
 
           <div class="resume-item">
             <div class="resume-item-head">
-              <div class="resume-role">StriveFX</div>
-              <div class="resume-date">2022-01 — 2022-02</div>
+              <div class="resume-role">StriveFX (Trading Platform)</div>
+              <div class="resume-date">Jan 2022 – Feb 2022</div>
             </div>
             <div class="resume-co">UX/UI Designer · IPVision Canada Inc</div>
             <div class="resume-desc">
-              Designed the user experience of StriveFX, a global multi-asset trading platform covering forex, indices,
-              commodities, and other financial instruments. Shipped modern, responsive interfaces.
+              <ul>
+                <li>Designed responsive user interfaces for a multi-asset trading platform (forex, indices, commodities,
+                  etc.).</li>
+                <li>Shipped modern layouts and interaction patterns optimized for clarity and usability.</li>
+              </ul>
             </div>
-            <a href="https://strivefx.com/" class="resume-link" target="_blank">strivefx.com ↗</a>
+            <a href="https://strivefx.com" class="resume-link" target="_blank">strivefx.com ↗</a>
           </div>
         </div>
 
@@ -2766,17 +2812,17 @@
           <div class="resume-h2">Education</div>
           <div class="resume-item">
             <div class="resume-item-head">
-              <div class="resume-role">BSc in Civil Engineering</div>
-              <div class="resume-date">2019-08 — 2023-04</div>
+              <div class="resume-role">BSc, Civil Engineering</div>
+              <div class="resume-date">Aug 2019 – Apr 2023</div>
             </div>
-            <div class="resume-co">World University of Bangladesh · CGPA 3.29</div>
+            <div class="resume-co">World University of Bangladesh · CGPA: 3.29</div>
           </div>
           <div class="resume-item">
             <div class="resume-item-head">
-              <div class="resume-role">Diploma in Civil Engineering</div>
-              <div class="resume-date">2014-08 — 2018-12</div>
+              <div class="resume-role">Diploma, Civil Engineering</div>
+              <div class="resume-date">Aug 2014 – Dec 2018</div>
             </div>
-            <div class="resume-co">Gopalganj Model Polytechnic Institute · CGPA 3.23</div>
+            <div class="resume-co">Gopalganj Model Polytechnic Institute · CGPA: 3.23</div>
           </div>
         </div>
 
@@ -2785,70 +2831,75 @@
           <div class="resume-item">
             <div class="resume-item-head">
               <div class="resume-role">Professional UI/UX Design</div>
-              <div class="resume-date">2024-03</div>
+              <div class="resume-date">Mar 2024</div>
             </div>
           </div>
           <div class="resume-item">
             <div class="resume-item-head">
               <div class="resume-role">Graphic & Web UI Design</div>
-              <div class="resume-date">2023-07</div>
+              <div class="resume-date">Jul 2023</div>
             </div>
           </div>
         </div>
 
         <div class="resume-section">
-          <div class="resume-h2">Honours</div>
+          <div class="resume-h2">Honors</div>
           <div class="resume-item">
             <div class="resume-item-head">
               <div class="resume-role">Punctuality Star Award</div>
-              <div class="resume-date">2024-12</div>
+              <div class="resume-date">Dec 2024</div>
             </div>
             <div class="resume-desc">
-              Recognised for consistent on-time performance, professional reliability, and disciplined work ethic.
+              Recognized for consistent on-time performance, professional reliability, and disciplined work ethic.
             </div>
           </div>
         </div>
 
         <div class="resume-section">
-          <div class="resume-h2">Skills</div>
+          <div class="resume-h2">Core Skills</div>
           <div class="resume-skill-list">
-            <span class="resume-skill">Product Design</span>
+            <span class="resume-skill">Product Design (UX/UI)</span>
             <span class="resume-skill">UX Research</span>
             <span class="resume-skill">Interaction Design</span>
-            <span class="resume-skill">User Experience (UED)</span>
-            <span class="resume-skill">Brand Design</span>
-            <span class="resume-skill">Graphic Design</span>
-            <span class="resume-skill">Illustration</span>
-            <span class="resume-skill">Logo Design</span>
-            <span class="resume-skill">Web Design</span>
-            <span class="resume-skill">Figma</span>
+            <span class="resume-skill">Information Architecture</span>
+            <span class="resume-skill">User Flows</span>
+            <span class="resume-skill">Wireframing</span>
+            <span class="resume-skill">Prototyping</span>
+            <span class="resume-skill">Usability & Heuristic Review</span>
             <span class="resume-skill">Design Systems</span>
-            <span class="resume-skill">QA Testing</span>
+            <span class="resume-skill">Component Libraries</span>
+            <span class="resume-skill">Responsive Web Design</span>
+            <span class="resume-skill">Design QA</span>
+            <span class="resume-skill">Developer Handoff</span>
+            <span class="resume-skill">Stakeholder Collaboration</span>
+            <span class="resume-skill">Visual Design</span>
+            <span class="resume-skill">Branding</span>
+          </div>
+        </div>
+
+        <div class="resume-section">
+          <div class="resume-h2">Tools</div>
+          <div class="resume-skill-list">
+            <span class="resume-skill">Figma</span>
+            <span class="resume-skill">FigJam</span>
+            <span class="resume-skill">Miro</span>
+            <span class="resume-skill">Notion</span>
+            <span class="resume-skill">Jira</span>
+            <span class="resume-skill">Adobe CC</span>
           </div>
         </div>
 
         <div class="resume-section">
           <div class="resume-h2">Languages</div>
           <div class="resume-skill-list">
-            <span class="resume-skill">English</span>
-            <span class="resume-skill">Bangla</span>
+            <span class="resume-skill">Bangla (Native)</span>
+            <span class="resume-skill">English (Professional)</span>
           </div>
         </div>
 
         <div class="resume-section">
           <div class="resume-h2">References</div>
-          <div class="resume-item">
-            <div class="resume-role">Md. Al Amin Mir</div>
-            <div class="resume-co">UI/UX & Product Designer Team Lead · Bangladesh Online (BOL)</div>
-            <div class="resume-desc">
-              alaminip@gmail.com · +880 1755 522 294
-            </div>
-          </div>
-          <div class="resume-item">
-            <div class="resume-role">Humayun Kabir</div>
-            <div class="resume-co">Assistant Lead Engineer · bKash Limited</div>
-            <div class="resume-desc">+880 1709 152 786</div>
-          </div>
+          <p class="resume-desc">Available upon request</p>
         </div>
 
       </div>
